@@ -1,0 +1,72 @@
+/* .example-spacer {
+    flex: 1 1 auto;
+  }*/
+  /* styles.css */
+.example-form-field {
+  width: 300px; /* Adjust width as needed */
+  margin: 20px; /* Add margin as needed */
+}
+
+.ex-color{
+    background-color:#ffffff;
+    /* overflow: hidden; */
+} 
+
+
+.input-with-icon {
+   /* display: flex;
+  align-items: center; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  width: 50%;
+  height: 0.9em;
+  margin-top:0.8em;
+}
+
+.icon {
+  margin-right: 8px; /* Adjust the margin as needed */
+  color: #757575; /* Adjust the color as needed */
+}
+
+/* Remove the border from a specific input field with a custom class */
+.custom-input {
+  border: none;
+  outline: none; /* Optional: Remove the input's outline when focused */
+  width:26em;
+  height:2em ;
+}
+
+.color-div{
+  color: #ccc;
+}
+
+.header-font{
+  font-size: 0.65em;
+}
+
+.icon-margin{
+  margin-left:1.5em
+}
+
+.header-font1{
+  font-size: 0.65em;
+  margin-top: -0.7em;
+}
+
+.font-cursor{
+  cursor:pointer;
+}
+
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+  height: 48px;
+}
+
+.icon-padding{
+  padding-left: 32em;
+}
+
+.search{
+  padding-left: 5em;
+}

@@ -1,0 +1,56 @@
+<div  fxLayout="row" fxLayoutGap="2em" class="pad left" fxLayoutAlign="space-between start" >
+    <div class="box-height ">
+        <div fxLayout="row" fxLayoutGap="1em" [style.background-color]="'#ffffff'">
+            <div [style.width]="'25em'">
+              <div fxLayoutAlign="space-between start">
+                <h2>Activation Steps</h2>
+                <span>View All</span>
+              </div>
+              <mat-divider></mat-divider>
+              <div>
+                <mat-list>
+                  <mat-list-item>Item 1</mat-list-item>
+                  <mat-divider></mat-divider>
+                  <mat-list-item>Item 2</mat-list-item>
+                  <mat-divider></mat-divider>
+                  <mat-list-item>Item 3</mat-list-item>
+                </mat-list>                
+              </div>
+            </div>
+            <div>
+              <div fxLayoutAlign="space-between start">
+                <h2>Email Automation</h2>
+                <span>View All</span>
+              </div>
+              <mat-divider></mat-divider>
+              <div fxLayoutGap="2em">
+                <div class="box-border">
+
+                </div>
+                <div class="box-border">
+  
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="pad">
+        <app-ag-grid
+        [rowData]="xRay"
+        >
+        </app-ag-grid>
+        </div>
+    </div>
+
+    <div class="panal-height">
+        <div>
+            <h3>Unicorn Inbox</h3>
+          </div>
+          <mat-divider></mat-divider>
+          <div *ngFor="let item of inbox_list" class="pad">
+            <div class="box-border back">
+              <div>{{item.name}}</div>
+              <div>{{item.description}}</div>
+            </div>
+          </div>
+    </div>
+</div>

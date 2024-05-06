@@ -1,0 +1,48 @@
+<div>
+  <div class="ex-color">
+    <mat-toolbar>
+      <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="2em">
+        <div fxFlex="60">
+          <h3>Smartpro.ai</h3>
+        </div>
+
+        <div fxFlex="80" fxLayoutAlign="center center" class="search">
+          <mat-form-field class="example-form-field">
+          <input type="text" matInput [(ngModel)]="searchInput" 
+          [placeholder]="isInputEmpty ? 'Search' : ''">  
+          <button mat-button matSuffix mat-icon-button aria-label="Search">
+            <mat-icon>search</mat-icon>
+          </button>
+          </mat-form-field>
+        </div>
+        <div fxFlex class="icon-padding">
+          <div fxLayoutAlign="space-around center" fxLayoutGap="1.5em">
+            <mat-icon 
+            [style.font-size]="'1.25em'" 
+            class="material-symbols-sharp"
+            >notifications_none</mat-icon>
+
+            <mat-icon 
+            [style.font-size]="'1.25em'" 
+            class="material-symbols-sharp"
+            >message</mat-icon>
+
+            <div fxLayoutAlign="center center">
+              <span>My Account</span>
+            <mat-icon 
+            [style.font-size]="'1.25em'" 
+            class="material-symbols-sharp"
+            >keyboard_arrow_down</mat-icon>
+          </div>
+            </div>
+        </div>
+      </div>
+    </mat-toolbar>
+  </div>
+  <div>
+    <app-main-dashboard
+    [holeData]="holeData"
+    >
+    </app-main-dashboard>
+  </div>
+</div>

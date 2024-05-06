@@ -1,0 +1,32 @@
+.box-border{
+    border: 2px solid transparent;
+    border-radius:0.55em;
+    width:16em ;
+    height: 7em;
+}
+
+.pad{
+    padding-top: 0.5em;
+}
+
+.box-height{
+    width: 73em;
+}
+
+.left{
+    padding-left: 1.5em;
+}
+
+.back{
+    background-color: #ffffff;
+    padding: 0.5em;
+}
+
+.panal-height{
+    height:33em;
+    overflow: scroll;
+}
+
+.sc{
+    overflow: scroll;
+}

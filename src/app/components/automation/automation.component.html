@@ -1,0 +1,33 @@
+<div fxFlex class="back-color">
+    <div fxLayoutAlign="space-between center">
+        <div class="header">
+            <h3>My Automation Analytics</h3>
+        </div>
+        <div fxLayoutGap="0.5em">
+            <span>19/08/1999</span>
+            <span>19/08/1999</span>
+        </div>
+    </div>
+    <div fxLayout="row" fxLayoutGap="1.5em" class="header">
+        <div class="box-border back-color1">
+            <span>All Time</span>
+            <h2>{{myAutomation.all_time}}%</h2>
+            <span>X-Ray Lead Captured</span>
+        </div>
+        <div class="box-border" [style.background-color]="'#d2d1d1'">
+            <span>Sent Emails</span>
+            <h2>{{myAutomation.send_emails}}%</h2>
+            <span>X-Ray Lead Captured</span>
+        </div>
+        <div class="box-border" [style.background-color]="'#ffc9c9'">
+            <span>Open Rate</span>
+            <h2>{{myAutomation.open_rate}}%</h2>
+            <span>X-Ray Lead Captured</span>
+        </div>
+        <div class="box-border" [style.background-color]="'#ffdfbe'">
+            <span>Click Rate</span>
+            <h2>{{myAutomation.click_rate}}%</h2>
+            <span>X-Ray Lead Captured</span>
+        </div>
+    </div>
+</div>

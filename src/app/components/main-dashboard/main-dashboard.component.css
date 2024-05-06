@@ -1,0 +1,66 @@
+
+
+/* .example-container {
+    width: auto;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #555;
+    background: #eee;
+  } */
+
+  .example-container {
+    width: 50em;
+    height: 50em;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  
+  .example-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .example-sidenav {
+    padding: 20px;
+    background-color: blanchedalmond;
+  }
+
+
+  /* styles.css (or your component specific CSS file) */
+.sidenav-container {
+    height: 49em;
+  }
+  
+  .custom-sidenav {
+    width: 200px; /* Adjust width as needed */
+    background-color: #333; /* Background color */
+  }
+  
+  .mat-list-item {
+    color: #fff; /* Text color */
+  }
+  
+  .mat-list-item:hover,
+  .mat-list-item.active-link {
+    background-color: #555; /* Background color on hover or when active */
+  }
+  
+  .active-link {
+    color: #ffcc00; /* Color for active link */
+  }
+  
+  .contener{
+    padding: 0.25em;
+    background-color: #f7f2f2f1;
+  }
+
+  .box-border{
+    border: 2px solid red;
+    border-radius:0.35em;
+    width:15em ;
+    height: 7em;
+}
+  
+
+  

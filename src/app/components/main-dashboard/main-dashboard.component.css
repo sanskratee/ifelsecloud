@@ -11,7 +11,7 @@
   .example-container {
     width: 50em;
     height: 50em;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    /* border: 1px solid rgba(0, 0, 0, 0.5); */
   }
   
   .example-sidenav-content {
@@ -34,16 +34,22 @@
   
   .custom-sidenav {
     width: 200px; /* Adjust width as needed */
-    background-color: #333; /* Background color */
+    color: #a8b2f3;
+    /* background-color: #333;  */
+    /* Background color */
   }
   
   .mat-list-item {
-    color: #fff; /* Text color */
+    /* color: #fff;  */
+    color:rgb(155, 155, 155);
+    /* Text color */
   }
   
   .mat-list-item:hover,
   .mat-list-item.active-link {
-    background-color: #555; /* Background color on hover or when active */
+    /* background-color: #555;  */
+    color:#a8b2f3
+    /* Background color on hover or when active */
   }
   
   .active-link {
